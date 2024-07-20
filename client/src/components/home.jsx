@@ -10,9 +10,9 @@ const HomePage = () => {
                 <h1>Welcome to Auto Solutions</h1>
                 <nav>
                     <ul>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -25,7 +25,7 @@ const HomePage = () => {
                     <h2>Our Services</h2>
                     <div className="service-list">
                         <div className="service-item">
-                            <h3>Oil Change</h3>
+                            <h3>ALEXANDER</h3>
                             <p>Keep your engine running smoothly with our comprehensive oil change service.</p>
                         </div>
                         <div className="service-item">
