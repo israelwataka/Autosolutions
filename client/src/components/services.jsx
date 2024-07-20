@@ -1,26 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import servicesData from '../servicesData';
 import './Services.scss';
 
 const Services = () => {
-  const [services, setServices] = useState([]);
-
-  useEffect(() => {
-    const fetchServices = async () => {
-      const response = await fetch('http://localhost:8080/api/services');
-      const data = await response.json();
-      setServices(data);
-    };
-
-    fetchServices();
-  }, []);
-
   return (
     <div className="serv-services">
       <div className="serv-container">
         <h2>Our Services</h2>
         <div className="serv-services-grid">
-          {services.map(service => (
+          {servicesData.map(service => (
             <div key={service.id} className="serv-service-card">
               <img src={service.image} alt={service.title} />
               <div className="serv-service-content">

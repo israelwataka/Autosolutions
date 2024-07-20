@@ -2,6 +2,7 @@ import React from 'react';
 import './home.scss';
 import Newsletter from './newsletter';
 import OurPartners from './OurPartners';
+import ContactInfo from './contactinfo';
 
 const HomePage = () => {
     return (
@@ -40,9 +41,10 @@ const HomePage = () => {
                 </section>
             </main>
             <Newsletter/>
-            {/* <OurPartners/> */}
+            <OurPartners/>
+            <ContactInfo/>
             <footer className="footer">
-                <p>&copy; 2024 Auto Solutions. All rights reserved.</p>
+                <p>&copy; 2024 Auto Solutions. All rights reserved. Made By Alexander Karano</p>
             </footer>
 
         </div>
