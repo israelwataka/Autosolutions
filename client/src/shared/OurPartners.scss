@@ -1,0 +1,78 @@
+$primary-color: #ff3d3d;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$font-family: 'Roboto', sans-serif;
+
+.our-partners {
+  background-color: $background-color;
+  padding: 2rem;
+  text-align: center;
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 2rem;
+    font-family: $font-family;
+  }
+
+  .slick-slider {
+    .slick-dots {
+      li {
+        button:before {
+          color: $secondary-color;
+        }
+      }
+
+      li.slick-active {
+        button:before {
+          color: $primary-color;
+        }
+      }
+    }
+
+    .slick-prev,
+    .slick-next {
+      font-size: 0;
+      line-height: 0;
+      position: relative;
+      top: 50%;
+      display: block;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      transform: translate(100, -50%);
+      cursor: pointer;
+      color: $secondary-color;
+      border: none;
+      outline: none;
+      background: transparent;
+
+      &:hover,
+      &:focus {
+        color: $primary-color;
+      }
+    }
+
+    .slick-prev {
+      left: -25px;
+    }
+
+    .slick-next {
+      right: -25px;
+    }
+
+    .partner-logo {
+      padding: 0 15px;
+      text-align: center;
+      img {
+        max-width: 100%;
+        height: auto;
+        max-height: 80px; 
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        border: 1px solid #ddd;
+        background-color: #fff;
+      }
+    }
+  }
+}

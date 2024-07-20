@@ -1,0 +1,62 @@
+.service-detail-container {
+  display: flex;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.service-detail {
+  flex: 3;
+  padding-right: 2rem;
+
+  .service-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .service-info {
+    h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.5;
+    }
+  }
+}
+
+.service-sidebar {
+  flex: 1;
+  padding-left: 2rem;
+  border-left: 1px solid #ddd;
+
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 1rem;
+
+      a {
+        text-decoration: none;
+        color: #ff6347; // Adjust to your theme color
+        font-size: 1rem;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #e5533c; // Adjust to your theme color
+        }
+      }
+    }
+  }
+}
