@@ -2,8 +2,8 @@ import React from 'react';
 import './contact.scss';
 import { FaClock, FaPhone, FaEnvelope } from 'react-icons/fa';
 import ReCAPTCHA from 'react-google-recaptcha';
-import OurPartners from '../shared/OurPartners'
-import ContactInfo from '../shared/contactinfo';
+import OurPartners from './OurPartners';
+import ContactInfo from './contactinfo';
 
 const ContactUs = () => {
   return (
