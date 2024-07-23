@@ -2,7 +2,7 @@ import roadWorksImage from './assets/inside.jpg';
 import waterWorksImage from './assets/inside.jpg';
 import buildingWorksImage from './assets/inside.jpg';
 
-const servicesData = [
+const blogData = [
   {
     id: 1,
     title: 'Road Works',
@@ -83,4 +83,4 @@ const servicesData = [
   // Add more services as needed
 ];
 
-export default servicesData;
+export default blogData;

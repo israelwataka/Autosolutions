@@ -4,7 +4,9 @@ import Home from "../components/home";
 import ContactUs from "../components/contact";
 import Testimonials from "../components/testimonials";
 import Services from "../components/Services"
+import Blogs from "../components/blog"
 import ServiceDetail from "../components/ServiceDetail";
+import BlogDetail from "../components/blogdetail";
 import Banner from "../shared/banner";
 import AdminService from "../admin/services";
 import AdminLogin from "../admin/login";
@@ -18,6 +20,8 @@ const Main = () => {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services/>} />
           <Route path="services/:id" element={<ServiceDetail />} />
+          <Route path="blogs" element={<Blogs/>} />
+          <Route path="blogs/:id" element={<BlogDetail />} />
           <Route path="contact" element={<ContactUs/>}/>
           <Route path="contacts" element={<Testimonials/>}/>
           <Route path="admin/services" element={<AdminService/>}/>

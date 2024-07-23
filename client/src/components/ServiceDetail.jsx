@@ -18,6 +18,12 @@ const ServiceDetail = () => {
         <div className="service-info">
           <h2>{service.title}</h2>
           <p>{service.fullDescription}</p>
+          <h3>{service.titleB}</h3>
+          <p>{service.otherDesc}</p>
+          <img src={service.image} alt={service.title} className="service-image" />
+          <h3>{service.titleC}</h3>
+          <p>{service.otherDescr}</p>
+          <img src={service.image} alt={service.title} className="service-image" />
         </div>
       </div>
       <div className="service-sidebar">

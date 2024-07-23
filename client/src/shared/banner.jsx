@@ -23,9 +23,19 @@ const Banner = ({ videoSrc }) => {
       case '/contact':
         title = 'CONTACT';
         break;
+      case '/services/1':
+        case '/services/2':
+          case '/services/3':
+        case '/services/4':
+          case '/services/5':
+        case '/services/6':
+          case '/services/7':
+        case '/services/8':
+        title = 'services';
+        break;
       // Add more cases for different routes
       default:
-        title = 'Page Title';
+        title = 'YOU ARE LOST';
     }
 
     setPageTitle(title);
